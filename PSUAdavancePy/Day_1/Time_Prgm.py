@@ -11,7 +11,7 @@ class Time:
         return Time(total_y , total_m)
     def __repr__(self):
         return f"{self.year} years and {self.month} months"
-time1 = Time(21,54)
-time2 = Time(18,25)
+time1 = Time(21,56)
+time2 = Time(14,25)
 time = time1 + time2
 print(time)
